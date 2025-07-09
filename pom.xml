@@ -13,6 +13,14 @@
 	<version>0.0.1</version>
 	<name>eureka</name>
 	<description>Eureka Server for HR onboarding system</description>
+	<profiles>
+        <profile>
+            <id>dockerfile</id>
+            <build>
+                <finalName>application</finalName>
+            </build>
+        </profile>
+    </profiles>
 	<url/>
 	<licenses>
 		<license/>
